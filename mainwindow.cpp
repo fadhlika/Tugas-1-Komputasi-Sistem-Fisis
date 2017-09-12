@@ -11,7 +11,7 @@ MainWindow::MainWindow(QWidget *parent) :
     tugas1 = new Tugas1();
     tugas1->setInitVelocity(-10); //set kecepatan awal
     tugas1->setInitPosition(2); // set posisi awal
-    tugas1->setTimeRange(-2, 2, 2000); // set range waktu
+    tugas1->setTimeRange(0, 10, 1000); // set range waktu
     tugas1->setInitialGuess(1, 2); // set tebakan awal bisection
     tugas1->calculate(); // hitung
 
